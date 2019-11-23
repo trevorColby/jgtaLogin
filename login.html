@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="jgtaLive">
 <meta property="og:description" content="JGTA Login">
-<body>
+<body id="body">
 	<img id="backgroundImg" class="login-background" src="../images/mistGolfThin.jpg"></img>
 	<div class="login-container">
 		<img class="login-logo" src="../images/JGTAGLOBE2018.png"></img>
@@ -17,10 +17,27 @@
     		<input id="loginPassword" class="login-input" type="password" placeholder="Enter Password" name="psw" required>
     		<button id="loginButton" class="login-input login-button" type="submit">Login</button>
 	</div>
-
-	<div class="login-language-container">
-		<button id="englishButton" class="login-language language-active login-button" type="submit">English</button>
-		<button id="mandarinButton" class="login-language login-button" type="submit">语言</button>
+	<div class="navbar">
+		<img id="navLogo" src="../images/Logo_SoutherJunior2019No-JGTA-logo.png"></img>
+		<div class="login-language-container">
+			 <div class="dropdown">
+				<button class="dropbtn loginType" onclick="loginTypeFunc()">
+					<i id="curLoginType" class="fa fa-caret-down">Guest</i>
+				</button>
+				<div class="dropdown-content" id="loginTypeDropdown">
+					<a id="guestButton" href="#">Guest</a>
+					<a id="adminButton" href="#">Admin</a>
+				</div>
+				<button class="dropbtn" onclick="langSelectFunc()">
+					<img id="curFlag" src="../images/usaFlag.png"></img>
+					<i id="curLang" class="fa fa-caret-down">English</i>
+				</button>
+				<div class="dropdown-content" id="langDropdown">
+					<a id="englishButton" href="#"><img src="../images/usaFlag.png"></img>English</a>
+					<a id="mandarinButton" href="#"><img src="../images/chinaFlag.png"></img>语言</a>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 <link rel="stylesheet" type="text/css" href="login.css">
