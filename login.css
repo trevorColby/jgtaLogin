@@ -67,7 +67,6 @@ button.login-input:focus {
 
 button.login-input {
 	width: 100%;
-	/* background-color: #505052; */
 	background-color: rgba(80, 80, 82, 0);
 	color: white;
 	padding: 14px 20px;
@@ -93,44 +92,132 @@ button.login-input {
 
 .login-language-container {
 	position: absolute;
-	top: 5px;
+	top: 0px;
 	right: 0px;
-	height: 10px;
-	width: 150px;
+	height: 100%;
+}
+
+.navbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 65px;
+	background-color: rgba(200, 200, 200, 0.8);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#navLogo {
+	height: 100%;
+	position: relative !important;
 }
 
 button.login-language {
 	display: inline-block;
 	width: 47%;
-	background-color: rgba(80, 80, 82, 0);
-	border: thin solid rgba(231, 231, 231, 1) !important;
+	margin-top: 5px;
+	background-color: rgba(220, 220, 220, 0.8); 
+	border-radius: 5px;
+	border: thin solid #FF8C00 !Important;
 	opacity: 0.7;
-	color: white;
+	color: black;
 	padding: 5px 10px;
 	border: none;
 	cursor: pointer;
 }
 
-button.language-active {
-	border-color: #FF8C00 !important;
-	background-color: rgba(80, 80, 82, 0.4) !important;
-	color: white !important;
-	opacity: 1 !important;
-}
-
-button.login-language:focus {
-	outline: 0;
-	border: thin solid #FF8C00 !Important;
-}
-
-
-button.language-active:focus {
-	outline: 0;
-	border: thin solid #FF8C00 !Important;
-}
-
 button.login-button:hover {
-	/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19); */
 	border-color: #FF8C00;
-	background-color: rgba(80, 80, 82, 0.4);
+	background-color: rgba(200, 200, 200, 0.8);
+}
+
+/* experiment with dropdown */
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown a img {
+	height: 100%;
+	margin-right: 10px;
+}
+
+.dropdown .dropbtn {
+	cursor: pointer;
+	position: relative;
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	border-width: 25px 16px 24px 16px;
+	padding-top: 0px !important;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	height: 66px;
+	width: 100px;
+	overflow: hidden !important;
+	margin-top: 0px;
+}
+.dropdown .dropbtn:hover{
+	background-color: rgba(80, 80, 82, 1);
+}
+
+.dropdown .dropbtn img {
+	height: 15px;
+	pointer-events: none;
+	overflow:hidden !important;
+}
+.dropdown .dropbtn i {
+	pointer-events: none;
+	overflow:hidden !important;
+	height: 18px;
+}
+
+.loginType {
+	margin-top: -1px !important;
+	height: 68px !important;
+	padding-top: 26px !important;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	margin-top: -3px;
+	right: 0px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#loginTypeDropdown {
+	right: 104px !important;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	height: 15px;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
 }
