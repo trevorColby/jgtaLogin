@@ -3,38 +3,41 @@
 <head>
     <title>JGTA | Live Scoring</title>
     <!-- <link rel="icon" href="media/HKD_Logo"> -->
-    <link rel="icon" href="../images/cropped-Fvicon-192x192.png" sizes="32x32">
+    <link rel="icon" href="./images/cropped-Fvicon-192x192.png" sizes="32x32">
 </head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="jgtaLive">
 <meta property="og:description" content="JGTA Login">
 <body id="body">
-	<img id="backgroundImg" class="login-background" src="../images/mistGolfThin.jpg"></img>
+	<!-- background image fullscreen-->
+	<img id="backgroundImg" class="login-background" src="./images/mistGolfThin.jpg"></img>
+	<!-- main content centered on page -->
 	<div class="login-container">
-		<img class="login-logo" src="../images/JGTAGLOBE2018.png"></img>
+		<img class="login-logo" src="./images/JGTAGLOBE2018.png"></img>
     		<input id="loginUsername" class="login-input" type="text" placeholder="Enter Username" name="uname" required>
     		<input id="loginPassword" class="login-input" type="password" placeholder="Enter Password" name="psw" required>
     		<button id="loginButton" class="login-input login-button" type="submit">Login</button>
 	</div>
+	<!-- navbar at top of screen floating over content -->
 	<div class="navbar">
-		<img id="navLogo" src="../images/Logo_SoutherJunior2019No-JGTA-logo.png"></img>
-		<div class="login-language-container">
+		<a class="navLogo" href="https://jgta.com"><img class="navLogo" src="./images/Logo_SoutherJunior2019No-JGTA-logo.png"></img></a>
+		<div class="nav-button-container">
 			 <div class="dropdown">
-				<button class="dropbtn loginType" onclick="loginTypeFunc()">
-					<i id="curLoginType" class="fa fa-caret-down">Guest</i>
+				<button id="curLoginBtn" class="dropbtn loginType" onclick="loginTypeFunc()">
+					<i id="curLoginType" class="fa fa-caret-down">Admin</i>
 				</button>
-				<div class="dropdown-content" id="loginTypeDropdown">
-					<a id="guestButton" href="#">Guest</a>
-					<a id="adminButton" href="#">Admin</a>
-				</div>
+				<!-- <div class="dropdown-content" id="loginTypeDropdown"> -->
+					<!-- <a id="guestButton" href="#">Guest</a> -->
+					<!-- <a id="adminButton" href="#">Admin</a> -->
+				<!-- </div> -->
 				<button class="dropbtn" onclick="langSelectFunc()">
-					<img id="curFlag" src="../images/usaFlag.png"></img>
+					<img id="curFlag" src="./images/usaFlag.png"></img>
 					<i id="curLang" class="fa fa-caret-down">English</i>
 				</button>
 				<div class="dropdown-content" id="langDropdown">
-					<a id="englishButton" href="#"><img src="../images/usaFlag.png"></img>English</a>
-					<a id="mandarinButton" href="#"><img src="../images/chinaFlag.png"></img>语言</a>
+					<a id="englishButton" href="#"><img src="./images/usaFlag.png"></img>English</a>
+					<a id="mandarinButton" href="#"><img src="./images/chinaFlag.png"></img>中文</a>
 				</div>
 			</div>
 		</div>
