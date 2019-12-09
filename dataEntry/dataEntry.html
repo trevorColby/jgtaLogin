@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JGTA | Live Scoring</title>
+    <!-- <link rel="icon" href="media/HKD_Logo"> -->
+    <link rel="icon" href="../images/cropped-Fvicon-192x192.png" sizes="32x32">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="jgtaLive">
+<meta property="og:description" content="JGTA Data Entry">
+<body id="body">
+	<!-- background image fullscreen-->
+	<img id="backgroundImg" class="img-background" src="../images/mistGolfThin.jpg"></img>
+	<!-- main content centered on page -->
+	<div class="data-container">
+		<div class="subtitle">Score Entry</div>
+		<div class="data-subcontainer">
+			<div class="section-line"></div>
+			<div class="data-search-bar">
+				<input class="data-search" type="text" placeholder="Search By Name" name="username" required>
+				<button class="data-search-button">Search</button>
+				<div class="data-search-key">
+					<p class="key-text">Key:</p>
+					<div class="data-search-key-item">
+						<p class="key-text">Round 1</p>
+					</div>
+					<div class="key-round key-round-1"></div>
+					<div class="data-search-key-item">
+						<p class="key-text">Round 2</p>
+					</div>
+					<div class="key-round key-round-2"></div>
+					<div class="data-search-key-item">
+						<p class="key-text">Round 2</p>
+					</div>
+					<div class="key-round key-round-3"></div>
+				</div>
+			</div>
+			<table class="data-scroll-content">
+				<thead>
+					<tr>
+						<th class="data-labels">Golfer</th>
+						<th class="data-labels">1</th>
+						<th class="data-labels">2</th>
+						<th class="data-labels">3</th>
+						<th class="data-labels">4</th>
+						<th class="data-labels">5</th>
+						<th class="data-labels">6</th>
+						<th class="data-labels">7</th>
+						<th class="data-labels">8</th>
+						<th class="data-labels">9</th>
+						<th class="data-labels">10</th>
+						<th class="data-labels">11</th>
+						<th class="data-labels">12</th>
+						<th class="data-labels">13</th>
+						<th class="data-labels">14</th>
+						<th class="data-labels">15</th>
+						<th class="data-labels">16</th>
+						<th class="data-labels">17</th>
+						<th class="data-labels">18</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="key-name">
+						<td>Trevor</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Chelsea</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Ian</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Josh</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Aidan</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Seth</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Emma</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</th>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-name">
+						<td>Other</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="key-round-1">
+						<td>R1</th>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-2">
+						<td>R2</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+					<tr class="key-round-3">
+						<td>R3</td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+						<td><input class="data-input"></input></td>
+					</tr>
+				</tbody>
+			</table>
+		<div id="jsGrid"></div>
+		</div>
+	</div>
+	<!-- navbar at top of screen floating over content -->
+	<div class="navbar">
+		<a class="navLogo" href="https://jgta.com"><img class="navLogo" src="../images/Logo_SoutherJunior2019No-JGTA-logo.png"></img></a>
+		<div class="nav-button-container">
+			 <div class="dropdown">
+				<button class="nav-btn">
+					<i class="fa fa-caret-down">Admin</i>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+<link rel="stylesheet" type="text/css" href="dataEntry.css">
+<script src="./jquery.min.js"></script>
+<script src="./dataEntry.js"></script>
+</html>
